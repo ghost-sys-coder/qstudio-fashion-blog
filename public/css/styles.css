@@ -266,6 +266,9 @@ main article:last-of-type {
     font-size: 1.4rem;
     font-weight: 600;
 }
+.trending-link:hover {
+    color: var(--specialColor);
+}
 .trending--buttons {
     margin-block: 2rem;
     display: flex;
@@ -500,6 +503,9 @@ iframe {
     }
     .book-card {
         min-width: 320px;
+    }
+    .buy-btn {
+        width: 90%;
     }
 }
 

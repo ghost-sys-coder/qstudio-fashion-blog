@@ -61,9 +61,8 @@ function next() {
 }
 
 
-bookLeftButton.addEventListener('click', prev)
+bookLeftButton.addEventListener('click', prev);
 
-bookRightButton.addEventListener('click', next)
+bookRightButton.addEventListener('click', next);
 
-
-
+const body = document.querySelector('body');

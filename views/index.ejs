@@ -1,25 +1,10 @@
 <%- include('partials/header.ejs') %> 
     <div class="app--container">
-        <!-- HEADER -->
-        <header class="header">
-            <div class="logo">
-                <h1><a href="/index.html" class="logo--link">Q.studio</a></h1>
-            </div>
-            <nav class="navbar">
-                <a href="" class="nav--item">Home</a>
-                <a href="" class="nav--item">Blog</a>
-                <a href="" class="nav--item">Podcasts</a>
-                <a href="" class="nav--item">Books</a>
-                <a href="" class="nav--item">About</a>
-            </nav>
-            <div class="user--profile">
-                <i class="fas fa-user"></i>
-                <i class="fas fa-cart-plus"></i>
-            </div>
-            <div class="toggle">
-                <i class="fas fa-bars"></i>
-            </div>
-        </header>
+        <!-- HEADER SECTION STARTS-->
+
+       <%- include('partials/nav-header.ejs') %> 
+
+        <!-- HEADER SECTION ENDS -->
 
         <!-- TOP ARTICLE AND ASIDE SECTION -->
 
@@ -499,17 +484,7 @@
 
         <!-- Subscribe Section -->
 
-        <section class="subscribe">
-            <hr class="horizontal">
-            <div class="subscribe--content">
-                <h3 class="subscribe--heading">subscribe to get more</h3>
-                <p class="subscribe--text">Be virtually guided through interviews and video tutorials with women that have already done it (and done it well). The perks, discounts and events are icing on the cake.</p>
-                <div class="subscribe--buttons">
-                    <a href="" class="learn-more sub-btn">Learn more</a>
-                    <a href="" class="sub-btn" id="buy-now">Buy now for $10.99(Monthly)</a>
-                </div>
-            </div>
-            <hr class="horizontal">
-        </section>
+<%- include('partials/subscribe.ejs') %> 
+
 <%- include('partials/footer.ejs') %> 
 
